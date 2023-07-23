@@ -1,8 +1,8 @@
-﻿\\ ImageNet Data Preprocessing
+# ImageNet Data Preprocessing
 
 This repository contains code for preprocessing the ImageNet 2010 dataset and converting it into a more manageable format using TensorFlow. The preprocessing involves loading and processing the images, saving the processed data to disk in batches, and optionally compiling the batches into a single file.
 
-\## Requirements
+## Requirements
 
 Before running the code, ensure you have the following dependencies installed:
 
@@ -12,7 +12,7 @@ Before running the code, ensure you have the following dependencies installed:
 
 \- numpy
 
-\## Usage
+## Usage
 
 1\. Import the required libraries:
 
@@ -272,7 +272,7 @@ def compile\_data\_from\_batches(data\_folder, dataset\_name):
 
 \```
 
-\## Notes
+## Notes
 
 \- This code preprocesses the ImageNet 2010 dataset into batches of embeddings and labels, saving them to disk in the specified dump folder. The data is saved in HDF5 format.
 
