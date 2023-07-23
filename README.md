@@ -1,4 +1,4 @@
-﻿\# ImageNet Data Preprocessing
+﻿\\ ImageNet Data Preprocessing
 
 This repository contains code for preprocessing the ImageNet 2010 dataset and converting it into a more manageable format using TensorFlow. The preprocessing involves loading and processing the images, saving the processed data to disk in batches, and optionally compiling the batches into a single file.
 
